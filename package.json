@@ -11,11 +11,17 @@
   "engines": {
     "vscode": "^1.80.0"
   },
+  "scripts": {
+    "deploy": "vsce publish"
+  },
   "categories": [
     "Extension Packs"
   ],
   "extensionPack": [
     "iiatlas.hledger-formatter",
     "ethanolpin.hledger-rules"
-  ]
+  ],
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.2"
+  }
 }
