@@ -1,0 +1,17 @@
+{
+  "name": "hledger-extension-pack",
+  "publisher": "EthanOlpin",
+  "displayName": "HLedger Extension Pack",
+  "description": "VSCode extension pack for hledger, the plain-text accounting tool",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "iiatlas.hledger-formatter",
+    "ethanolpin.hledger-rules"
+  ]
+}
