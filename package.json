@@ -2,6 +2,10 @@
   "name": "hledger-extension-pack",
   "publisher": "EthanOlpin",
   "displayName": "HLedger Extension Pack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EthanOlpin/hledger-extension-pack"
+  },
   "description": "VSCode extension pack for hledger, the plain-text accounting tool",
   "version": "0.1.0",
   "engines": {
